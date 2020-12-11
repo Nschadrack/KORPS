@@ -1,0 +1,67 @@
+*{box-sizing: border-box;}
+
+body{
+	margin:auto;
+	
+}
+div.dash_row{
+	margin-left: 20px;
+	
+	margin-right:10px; 
+	
+}
+div.dashboard_boxes{
+	margin-left: 20px;
+	border:1px solid black;
+	border-radius: 5px;
+	min-height: 200px;
+	margin-top: 20px;
+}
+div.binded_row{
+	margin-top: 25px;
+}
+
+/*footer*/
+
+footer#footer_copyright{
+	background-color: black;
+	height: 40px;
+	padding-top: 10px;
+	text-align: center;
+	margin-top: 30px;
+}
+ul#rightnavdash{
+	margin-left: auto;
+
+}
+div#korpsdashnav a{
+	color: white;
+	margin-right: 20px;
+}
+
+/*requests and notifications*/
+div#requestsrow{
+	margin-top: 20px;
+	margin-left: 80px;
+	margin-right: 10px;	
+}
+div.req{
+	padding-top:10px;
+	padding-bottom: 10px;
+	border:1px solid rgba(0,0,0,0.5);
+	margin-left:20px;
+	overflow-y: hidden;
+}
+
+/*div#requestsrow div#colrequests{
+	border-left: 1px solid rgba(0,0,0,0.5);
+}*/
+
+div#notificationsrow{
+	margin-top: 20px;
+	border:1px solid rgba(0,0,0,0.5);
+	margin-left: 3px;
+	margin-right: 10px;
+	padding:15px;
+	
+}
